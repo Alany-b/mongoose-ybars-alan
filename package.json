@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-ybars-alan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alany-b/mongoose-ybars-alan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alany-b/mongoose-ybars-alan/issues"
+  },
+  "homepage": "https://github.com/Alany-b/mongoose-ybars-alan#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
+  }
+}
