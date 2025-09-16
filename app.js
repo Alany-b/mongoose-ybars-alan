@@ -2,6 +2,7 @@ import { startDB } from "./src/config/database.js";
 import express from "express";
 import "dotenv/config";
 import { userRouter } from "./src/routes/user.route.js";
+import { profileRouter } from "./src/routes/profile.routes.js";
 
 const app = express();
 const PORT = process.env.PORT
@@ -9,7 +10,7 @@ const PORT = process.env.PORT
 //rutas
 
 app.use(express.json());
-app.use("/api", userRouter);
+app.use("/api", userRouter, profileRouter);
 
 
 
